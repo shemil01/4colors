@@ -1,0 +1,101 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Printer,
+  Palette,
+  Droplets,
+  Settings,
+  Monitor,
+  CheckCircle,
+} from "lucide-react";
+import Link from "next/link";
+import { categories } from "@/data/categories";
+
+const iconMap = {
+  "ink-cartridge": Palette,
+  "toner-cartridge": Printer,
+  "ink-bottles": Droplets,
+  accessories: Settings,
+  printers: Monitor,
+  compatible: CheckCircle,
+};
+
+export default function FeaturedCategories() {
+  return (
+    <section
+      className="py-20 bg-brand-light-gray"
+      data-testid="featured-categories"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2
+            className="text-4xl font-bold text-brand-navy mb-4"
+            data-testid="categories-title"
+          >
+            Premium Product Categories
+          </h2>
+          <p className="text-xl text-brand-gray max-w-3xl mx-auto">
+            Discover our comprehensive range of genuine printing supplies from
+            world-leading brands
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {categories.map((category, index) => {
+            const IconComponent = iconMap[category.slug] || Printer;
+
+            return (
+              <Card
+                key={category.id}
+                className="group bg-white hover-scale cursor-pointer transition-all duration-300 hover:shadow-xl"
+                data-testid={`category-card-${index}`}
+              >
+                <CardContent className="p-8">
+                  <div className="w-16 h-16 bg-brand-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-gold transition-colors">
+                    <IconComponent className="w-8 h-8 text-white group-hover:text-brand-navy transition-colors" />
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-brand-navy mb-3 group-hover:text-brand-gold transition-colors">
+                    {category.name}
+                  </h3>
+
+                  <p className="text-brand-gray mb-6 leading-relaxed">
+                    {category.description}
+                  </p>
+
+                  <div className="flex items-center justify-between">
+                    <div className="text-brand-gold font-semibold">
+                      {category.productCount}+ Products Available
+                    </div>
+
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="text-brand-navy hover:text-brand-gold p-0 h-auto"
+                      data-testid={`category-link-${index}`}
+                    >
+                      <Link href={`/products?category=${category.slug}`}>
+                        View All →
+                      </Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+
+        <div className="text-center mt-12">
+          <Button
+            asChild
+            size="lg"
+            className="bg-brand-gold hover:bg-brand-light-gold text-brand-navy font-semibold"
+            data-testid="view-all-categories"
+          >
+            <Link href="/products">View All Categories</Link>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
