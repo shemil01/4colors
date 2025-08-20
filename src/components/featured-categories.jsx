@@ -23,23 +23,25 @@ const iconMap = {
 export default function FeaturedCategories() {
   return (
     <section
-      className="py-20 bg-brand-light-gray"
+      className="py-20 bg-gradient-to-r from-[#1E0B0B] via-[#972317] to-[#1E0506]"
       data-testid="featured-categories"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
         <div className="text-center mb-16">
           <h2
-            className="text-4xl font-bold text-brand-navy mb-4"
+            className="text-4xl font-bold text-white mb-4"
             data-testid="categories-title"
           >
             Premium Product Categories
           </h2>
-          <p className="text-xl text-brand-gray max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Discover our comprehensive range of genuine printing supplies from
             world-leading brands
           </p>
         </div>
 
+        {/* Category Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category, index) => {
             const IconComponent = iconMap[category.slug] || Printer;
@@ -47,31 +49,38 @@ export default function FeaturedCategories() {
             return (
               <Card
                 key={category.id}
-                className="group bg-white hover-scale cursor-pointer transition-all duration-300 hover:shadow-xl"
+                className="group bg-black/30 backdrop-blur-md border border-white/10 
+                rounded-2xl cursor-pointer transition-all duration-300 
+                hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
                 data-testid={`category-card-${index}`}
               >
                 <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-brand-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-brand-gold transition-colors">
-                    <IconComponent className="w-8 h-8 text-white group-hover:text-brand-navy transition-colors" />
+                  {/* Icon */}
+                  <div className="w-16 h-16 bg-[#00AEEF] rounded-xl flex items-center justify-center mb-6 
+                    group-hover:bg-[#D4AF37] transition-colors">
+                    <IconComponent className="w-8 h-8 text-white group-hover:text-[#1E0B0B] transition-colors" />
                   </div>
 
-                  <h3 className="text-2xl font-bold text-brand-navy mb-3 group-hover:text-brand-gold transition-colors">
+                  {/* Title */}
+                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">
                     {category.name}
                   </h3>
 
-                  <p className="text-brand-gray mb-6 leading-relaxed">
+                  {/* Description */}
+                  <p className="text-gray-300 mb-6 leading-relaxed">
                     {category.description}
                   </p>
 
+                  {/* Footer */}
                   <div className="flex items-center justify-between">
-                    <div className="text-brand-gold font-semibold">
+                    <div className="text-[#D4AF37] font-semibold">
                       {category.productCount}+ Products Available
                     </div>
 
                     <Button
                       asChild
                       variant="ghost"
-                      className="text-brand-navy hover:text-brand-gold p-0 h-auto"
+                      className="text-[#00AEEF] hover:text-[#D4AF37] p-0 h-auto"
                       data-testid={`category-link-${index}`}
                     >
                       <Link href={`/products?category=${category.slug}`}>
@@ -85,11 +94,12 @@ export default function FeaturedCategories() {
           })}
         </div>
 
+        {/* View All Button */}
         <div className="text-center mt-12">
           <Button
             asChild
             size="lg"
-            className="bg-brand-gold hover:bg-brand-light-gold text-brand-navy font-semibold"
+            className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white font-semibold rounded-xl shadow-lg"
             data-testid="view-all-categories"
           >
             <Link href="/products">View All Categories</Link>

@@ -52,23 +52,7 @@ export default function Navbar() {
             ))}
             
             {/* Language Toggle */}
-            <div className="flex items-center space-x-2">
-              <Button 
-                size="sm" 
-                className="bg-brand-navy text-white hover:bg-brand-gold hover:text-brand-navy"
-                data-testid="lang-en"
-              >
-                EN
-              </Button>
-              <Button 
-                size="sm" 
-                variant="ghost" 
-                className="text-brand-navy hover:bg-brand-light-gray font-arabic"
-                data-testid="lang-ar"
-              >
-                عربي
-              </Button>
-            </div>
+          
             
             {/* CTA Button */}
             <Button 
