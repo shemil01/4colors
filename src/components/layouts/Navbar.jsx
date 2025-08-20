@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -29,13 +30,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-4" data-testid="logo-link">
-            <div className="w-12 h-12 bg-brand-navy rounded-lg flex items-center justify-center">
-              <span className="text-brand-gold font-bold text-xl">4C</span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-brand-navy">Four Colours</h1>
-              <p className="text-xs text-brand-gray">Premium Printing Solutions</p>
-            </div>
+                       <Image src={'/logo.jpg'} width={80} height={80} alt="logo image" />
+
           </Link>
           
           {/* Desktop Navigation */}
