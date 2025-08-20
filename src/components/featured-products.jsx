@@ -10,30 +10,22 @@ export default function FeaturedProducts() {
   const featuredProducts = products.filter(p => p.isFeatured).slice(0, 8);
 
   return (
-    <section
-      className="py-20 bg-gradient-to-r from-[#1E0B0B] via-[#972317] to-[#1E0506]"
-      data-testid="featured-products"
-    >
+    <section className="py-20 bg-white" data-testid="featured-products">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="flex justify-between items-center mb-16">
           <div>
-            <h2
-              className="text-4xl font-bold text-white mb-4"
-              data-testid="featured-products-title"
-            >
+            <h2 className="text-4xl font-bold text-brand-navy mb-4" data-testid="featured-products-title">
               Featured Products
             </h2>
-            <p className="text-xl text-gray-300">
+            <p className="text-xl text-brand-gray">
               Our most popular printing solutions trusted by leading corporations
             </p>
           </div>
-
-          {/* Desktop CTA */}
-          <Button
+          
+          <Button 
             asChild
             variant="ghost"
-            className="text-[#00AEEF] hover:text-[#D4AF37] font-semibold hidden md:flex items-center transition-colors"
+            className="text-brand-gold hover:text-brand-navy font-semibold hidden md:flex items-center"
             data-testid="view-all-products"
           >
             <Link href="/products">
@@ -42,30 +34,29 @@ export default function FeaturedProducts() {
             </Link>
           </Button>
         </div>
-
-        {/* Products Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredProducts.map((product, index) => (
-            <ProductCard
-              key={product.id}
-              product={product}
+            <ProductCard 
+              key={product.id} 
+              product={product} 
               viewMode="grid"
-              className="bg-black/30 backdrop-blur-md border border-white/10 
-              hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] rounded-2xl transition-all"
               data-testid={`featured-product-${index}`}
             />
           ))}
         </div>
-
-        {/* Mobile CTA */}
+        
+        {/* Mobile View All Button */}
         <div className="text-center mt-12 md:hidden">
-          <Button
+          <Button 
             asChild
             size="lg"
-            className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white font-semibold rounded-xl shadow-lg"
+            className="bg-brand-gold hover:bg-brand-light-gold text-brand-navy font-semibold"
             data-testid="view-all-products-mobile"
           >
-            <Link href="/products">View All Products</Link>
+            <Link href="/products">
+              View All Products
+            </Link>
           </Button>
         </div>
       </div>
