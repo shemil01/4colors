@@ -36,7 +36,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-brand-dark-navy text-white" data-testid="footer">
+    <footer className="bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] text-white" data-testid="footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16">

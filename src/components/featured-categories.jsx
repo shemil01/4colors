@@ -22,20 +22,17 @@ const iconMap = {
 
 export default function FeaturedCategories() {
   return (
-    <section
-      className="py-20 bg-gradient-to-r from-[#1E0B0B] via-[#972317] to-[#1E0506]"
-      data-testid="featured-categories"
-    >
+    <section className="py-20 " data-testid="featured-categories">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2
-            className="text-4xl font-bold text-white mb-4"
+            className="text-4xl font-bold text-[#1A1A40] mb-4"
             data-testid="categories-title"
           >
             Premium Product Categories
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Discover our comprehensive range of genuine printing supplies from
             world-leading brands
           </p>
@@ -49,20 +46,22 @@ export default function FeaturedCategories() {
             return (
               <Card
                 key={category.id}
-                className="group bg-black/30 backdrop-blur-md border border-white/10 
-                rounded-2xl cursor-pointer transition-all duration-300 
-                hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+                className="group bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] backdrop-blur-md border border-gray-200 rounded-2xl shadow-md 
+             cursor-pointer transition-all duration-300 
+             hover:shadow-[0_0_25px_rgba(0,174,239,0.35)]"
                 data-testid={`category-card-${index}`}
               >
                 <CardContent className="p-8">
                   {/* Icon */}
-                  <div className="w-16 h-16 bg-[#00AEEF] rounded-xl flex items-center justify-center mb-6 
-                    group-hover:bg-[#D4AF37] transition-colors">
+                  <div
+                    className="w-16 h-16 bg-[#00AEEF] rounded-xl flex items-center justify-center mb-6 
+                    group-hover:bg-[#D4AF37] transition-colors"
+                  >
                     <IconComponent className="w-8 h-8 text-white group-hover:text-[#1E0B0B] transition-colors" />
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">
+                  <h3 className="text-2xl font-bold text-[#00AEEF] mb-3 group-hover:text-[#0d93c4] transition-colors">
                     {category.name}
                   </h3>
 
@@ -76,12 +75,10 @@ export default function FeaturedCategories() {
                     <div className="text-[#D4AF37] font-semibold">
                       {category.productCount}+ Products Available
                     </div>
-
                     <Button
                       asChild
                       variant="ghost"
-                      className="text-[#00AEEF] hover:text-[#D4AF37] p-0 h-auto"
-                      data-testid={`category-link-${index}`}
+                      className="text-[#00AEEF] hover:text-[#D4AF37] font-medium p-0 h-auto"
                     >
                       <Link href={`/products?category=${category.slug}`}>
                         View All →
