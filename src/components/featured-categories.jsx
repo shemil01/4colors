@@ -1,3 +1,4 @@
+"use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,6 +11,8 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { categories } from "@/data/categories";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const iconMap = {
   "ink-cartridge": Palette,
@@ -20,22 +23,62 @@ const iconMap = {
   compatible: CheckCircle,
 };
 
+const variants = {
+  initial: {
+    x: -100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut",
+      staggerChildren: 0.2,
+    },
+  },
+};
+const Leftvariants = {
+  initial: {
+    x: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut",
+      staggerChildren: 0.2,
+    },
+  },
+};
+
 export default function FeaturedCategories() {
+  const ref = useRef();
   return (
     <section className="py-20 " data-testid="featured-categories">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2
+          <motion.h2
+            variants={Leftvariants}
+            initial="initial"
+            whileInView="animate"
             className="text-4xl font-bold text-[#1A1A40] mb-4"
             data-testid="categories-title"
           >
             Premium Product Categories
-          </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          </motion.h2>
+          <motion.p
+            variants={variants}
+            initial="initial"
+            whileInView="animate"
+            className="text-xl text-gray-700 max-w-3xl mx-auto"
+          >
             Discover our comprehensive range of genuine printing supplies from
             world-leading brands
-          </p>
+          </motion.p>
         </div>
 
         {/* Category Cards */}
