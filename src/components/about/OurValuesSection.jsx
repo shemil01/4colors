@@ -22,7 +22,7 @@ const OurValuesSection = ({values}) => {
             {values.map((value, index) => (
               <Card
                 key={index}
-                className="p-8 text-center hover-scale bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506]"
+                className="p-8 text-center hover-scale bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]"
                 data-testid={`value-${index}`}
               >
                 <CardContent className="p-0">

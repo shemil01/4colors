@@ -3,7 +3,7 @@ import { Badge } from '../ui/badge'
 
 const HeroSectio = () => {
   return (
-        <section className="bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] text-white py-24">
+        <section className="bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Badge

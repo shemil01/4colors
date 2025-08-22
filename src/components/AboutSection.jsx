@@ -24,7 +24,7 @@ export default function AboutPreview() {
 
   return (
     <section 
-      className="py-20 bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] text-white" 
+      className="py-20 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] text-white" 
       data-testid="about-preview"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,7 +83,7 @@ export default function AboutPreview() {
             
             {/* Floating Achievement Cards */}
             <Card 
-              className="absolute -top-6 -left-6 bg-[#1E0506] shadow-xl" 
+              className="absolute -top-6 -left-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" 
               data-testid="iso-card"
             >
               <CardContent className="p-6">
@@ -96,7 +96,7 @@ export default function AboutPreview() {
             </Card>
             
             <Card 
-              className="absolute -bottom-6 -right-6 bg-[#1E0506] shadow-xl" 
+              className="absolute -bottom-6 -right-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" 
               data-testid="experience-card"
             >
               <CardContent className="p-6">

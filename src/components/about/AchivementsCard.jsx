@@ -9,7 +9,7 @@ const AchivementsCard = ({achievements}) => {
             {achievements.map((achievement, index) => (
               <Card
                 key={index}
-                className="text-center p-8 hover-scale bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506]"
+                className="text-center p-8 hover-scale bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]"
                 data-testid={`achievement-${index}`}
               >
                 <CardContent className="p-0">

@@ -89,7 +89,7 @@ export default function FeaturedCategories() {
             return (
               <Card
                 key={category.id}
-                className="group bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] backdrop-blur-md border border-gray-200 rounded-2xl shadow-md 
+                className="group bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] backdrop-blur-md border border-gray-200 rounded-2xl shadow-md 
              cursor-pointer transition-all duration-300 
              hover:shadow-[0_0_25px_rgba(0,174,239,0.35)]"
                 data-testid={`category-card-${index}`}

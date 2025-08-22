@@ -13,7 +13,7 @@ export default function HeroSection() {
 
   return (
    <section 
-  className="bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] relative overflow-hidden min-h-screen flex items-center" 
+  className="bg-gradient-to-r from-[#B92417] via-[#A0281C] to-[#8A271C] relative overflow-hidden min-h-screen flex items-center" 
   data-testid="hero-section"
 >
   {/* Background Elements */}
@@ -104,7 +104,7 @@ export default function HeroSection() {
         </div>
         
         {/* Floating Cards */}
-        <Card className="absolute -top-4 -right-4 bg-[#1E0506] shadow-xl" data-testid="hero-card-delivery">
+        <Card className="absolute -top-4 -right-4 bg-gradient-to-r from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" data-testid="hero-card-delivery">
           <CardContent className="p-4">
             <div className="flex items-center space-x-2">
               <Clock className="w-5 h-5 text-[#FFF200]" />
@@ -116,7 +116,7 @@ export default function HeroSection() {
           </CardContent>
         </Card>
         
-        <Card className="absolute -bottom-4 -left-4 bg-[#1E0506] shadow-xl" data-testid="hero-card-genuine">
+        <Card className="absolute -bottom-4 -left-4 bg-gradient-to-r from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" data-testid="hero-card-genuine">
           <CardContent className="p-4">
             <div className="flex items-center space-x-2">
               <Shield className="w-5 h-5 text-white" />

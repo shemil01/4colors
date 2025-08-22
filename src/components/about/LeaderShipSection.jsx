@@ -38,7 +38,7 @@ const LeaderShipSection = () => {
             ].map((leader, index) => (
               <Card
                 key={index}
-                className="bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] border-brand-gray text-center p-8"
+                className="bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] border-brand-gray text-center p-8"
                 data-testid={`leader-${index}`}
               >
                 <CardContent className="p-0">

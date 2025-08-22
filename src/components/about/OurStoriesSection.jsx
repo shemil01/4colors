@@ -52,7 +52,7 @@ const OurStoriesSection = () => {
                 className="rounded-2xl shadow-2xl w-full"
                 data-testid="image-story"
               />
-              <div className="absolute -bottom-6 -right-6 bg-gradient-to-b from-[#1E0B0B] via-[#240909] to-[#1E0506] p-6 rounded-xl shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] p-6 rounded-xl shadow-xl">
                 <div className="text-3xl font-bold text-white">15+</div>
                 <div className="text-[#FFF200] font-semibold">Years</div>
                 <div className="text-sm text-gray-200">
