@@ -40,7 +40,7 @@ export const products = [
     categoryId: "toner-cartridge",
     brand: "HP",
     model: "W1470A", 
-    image: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+    image: "/cartridge-img-1.avif",
     images: [],
     inStock: true,
     stockQuantity: 25,

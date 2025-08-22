@@ -1,8 +1,8 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu,  } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -10,7 +10,6 @@ import Image from "next/image";
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-
 
   const navigation = [
     { name: "Home", href: "/" },
@@ -25,15 +24,21 @@ export default function Navbar() {
     return pathname.startsWith(href);
   };
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50" data-testid="navigation">
+    <nav
+      className="bg-white shadow-lg sticky top-0 z-50"
+      data-testid="navigation"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-4" data-testid="logo-link">
-                       <Image src={'/logo.jpg'} width={80} height={80} alt="logo image" />
-
+          <Link
+            href="/"
+            className="flex items-center space-x-4"
+            data-testid="logo-link"
+          >
+            <Image src={"/logo.jpg"} width={80} height={80} alt="logo image" />
           </Link>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
@@ -50,12 +55,11 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            
+
             {/* Language Toggle */}
-          
-            
+
             {/* CTA Button */}
-            <Button 
+            <Button
               asChild
               className="bg-brand-gold hover:bg-brand-light-gold text-brand-navy font-semibold shadow-lg"
               data-testid="cta-quote"
@@ -63,12 +67,16 @@ export default function Navbar() {
               <Link href="/contact">Get Quote</Link>
             </Button>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="lg:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="sm" data-testid="mobile-menu-trigger">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  data-testid="mobile-menu-trigger"
+                >
                   <Menu className="w-6 h-6 text-brand-navy" />
                 </Button>
               </SheetTrigger>
@@ -77,14 +85,20 @@ export default function Navbar() {
                   {/* Logo in Mobile */}
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-brand-navy rounded-lg flex items-center justify-center">
-                      <span className="text-brand-gold font-bold text-lg">4C</span>
+                      <span className="text-brand-gold font-bold text-lg">
+                        4C
+                      </span>
                     </div>
                     <div>
-                      <h2 className="text-lg font-bold text-brand-navy">Four Colours</h2>
-                      <p className="text-xs text-brand-gray">Premium Printing</p>
+                      <h2 className="text-lg font-bold text-brand-navy">
+                        Four Colours
+                      </h2>
+                      <p className="text-xs text-brand-gray">
+                        Premium Printing
+                      </p>
                     </div>
                   </div>
-                  
+
                   {/* Mobile Navigation */}
                   <div className="flex flex-col space-y-4">
                     {navigation.map((item) => (
@@ -103,16 +117,24 @@ export default function Navbar() {
                       </Link>
                     ))}
                   </div>
-                  
+
                   {/* Mobile Language Toggle */}
                   <div className="flex items-center space-x-2 px-4">
-                    <Button size="sm" className="bg-brand-navy text-white">EN</Button>
-                    <Button size="sm" variant="ghost" className="text-brand-navy font-arabic">عربي</Button>
+                    <Button size="sm" className="bg-brand-navy text-white">
+                      EN
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      className="text-brand-navy font-arabic"
+                    >
+                      عربي
+                    </Button>
                   </div>
-                  
+
                   {/* Mobile CTA */}
                   <div className="px-4">
-                    <Button 
+                    <Button
                       asChild
                       className="w-full bg-brand-gold hover:bg-brand-light-gold text-brand-navy font-semibold"
                       onClick={() => setIsMobileMenuOpen(false)}

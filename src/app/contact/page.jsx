@@ -1,8 +1,7 @@
+import QuoteRequestForm from "@/components/contact/QuoteRequestForm";
+import Navbar from "@/components/layouts/Navbar";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const metadata = {
@@ -41,7 +40,7 @@ export default function Contact() {
 
   return (
     <>
-      {/* Hero Section */}
+      <Navbar />
       <section className="bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="bg-[#FFF200] text-[#0A1F44] mb-6">
@@ -117,33 +116,7 @@ export default function Contact() {
             </div>
 
             {/* Contact Form (Static Only) */}
-            <Card className="shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-2xl text-[#0A1F44]">
-                  Request a Quote
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <Input placeholder="Full Name *" />
-                    <Input type="email" placeholder="Email Address *" />
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <Input placeholder="Company Name" />
-                    <Input placeholder="Phone Number" />
-                  </div>
-                  <Input placeholder="Product Interest" />
-                  <Textarea
-                    rows={4}
-                    placeholder="Tell us about your printing requirements..."
-                  />
-                  <Button className="w-full bg-[#FFF200] hover:bg-yellow-300 text-[#0A1F44] font-semibold text-lg py-3">
-                    Send Quote Request
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+            <QuoteRequestForm />
           </div>
         </div>
       </section>
