@@ -1,4 +1,5 @@
 import QuoteRequestForm from "@/components/contact/QuoteRequestForm";
+import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -122,7 +123,7 @@ export default function Contact() {
       </section>
 
       {/* Locations */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-[#0A1F44] mb-6">
             Serving the Entire GCC Region
@@ -136,19 +137,19 @@ export default function Contact() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { country: "Qatar", city: "Doha", phone: "+974 3078 1234" },
-              { country: "UAE", city: "Dubai", phone: "+971 4 XXX XXXX" },
+              { country: "UAE", city: "Dubai", phone: "+971 52 246 4935" },
               {
                 country: "Saudi Arabia",
                 city: "Riyadh",
                 phone: "+966 11 XXX XXXX",
               },
             ].map((location, index) => (
-              <Card key={index} className="p-6">
+              <Card key={index} className="p-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]">
                 <CardContent className="p-0 text-center">
                   <h3 className="text-xl font-bold text-[#0A1F44] mb-2">
                     {location.country}
                   </h3>
-                  <p className="text-gray-600 mb-2">{location.city}</p>
+                  <p className="text-[#00AEEF] mb-2">{location.city}</p>
                   <p className="text-[#FFF200] font-semibold">
                     {location.phone}
                   </p>
@@ -158,6 +159,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

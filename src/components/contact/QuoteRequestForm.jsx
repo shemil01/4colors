@@ -36,7 +36,7 @@ export default function QuoteRequestForm() {
             <FileText className="text-[#FFF200]" />
             Request a Quote
           </CardTitle>
-          <p className="text-slate-200 text-sm font-normal mt-2">
+          <p className="text-[#00AEEF] text-sm font-normal mt-2">
             Fill out the form below and we'll get back to you with a customized quote
           </p>
         </CardHeader>
