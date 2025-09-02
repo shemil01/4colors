@@ -96,7 +96,7 @@ export default function AboutPreview() {
             </Card>
             
             <Card 
-              className="absolute -bottom-6 -right-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" 
+              className="absolute -bottom-6 md:-right-6 -right-2 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C] shadow-xl" 
               data-testid="experience-card"
             >
               <CardContent className="p-6">

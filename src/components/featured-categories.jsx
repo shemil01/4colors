@@ -57,7 +57,7 @@ const Leftvariants = {
 export default function FeaturedCategories() {
   const ref = useRef();
   return (
-    <section className="py-20 " data-testid="featured-categories">
+    <section className="py-20  overflow-x-hidden" data-testid="featured-categories">
       <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
