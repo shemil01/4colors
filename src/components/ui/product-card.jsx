@@ -80,7 +80,7 @@ export default function ProductCard({ product, viewMode = "grid" }) {
     <div className="max-w-sm mx-auto my-8">
       <div className="bg-gradient-to-br from-white to-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
         {/* Image */}
-        <div className="h-64 overflow-hidden">
+        <div className="h-64 flex items-center justify-center bg-white overflow-hidden">
           <Image
             src={
               product.image ||
@@ -89,7 +89,7 @@ export default function ProductCard({ product, viewMode = "grid" }) {
             alt="Red Nike Shoes"
             width={500}
             height={500}
-            className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
+            className="max-h-full max-w-full object-contain transform transition-transform duration-300 group-hover:scale-105"
           />
         </div>
 
