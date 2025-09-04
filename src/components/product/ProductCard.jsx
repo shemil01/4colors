@@ -61,15 +61,16 @@ const ProductCard = ({
       </button>
 
       {/* Product Image */}
+      {/* Product Image */}
       <div
-        className={`relative overflow-hidden ${
-          viewMode === "list" ? "w-48 flex-shrink-0" : "aspect-square"
+        className={`relative overflow-hidden flex items-center justify-center bg-white ${
+          viewMode === "list" ? "w-48 flex-shrink-0 h-48" : "aspect-square"
         }`}
       >
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
         />
 
         {/* Overlay Actions */}
