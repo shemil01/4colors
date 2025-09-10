@@ -4,6 +4,7 @@ import React from "react";
 import { products } from "@/data/products";
 import ProductDetailsPage from "@/components/product/id/ProductDetails";
 import Navbar from "@/components/layouts/Navbar";
+import Footer from "@/components/layouts/Footer";
 
 const page = () => {
   const { slug } = useParams();
@@ -14,6 +15,7 @@ const page = () => {
       {product.map((data) => (
         <ProductDetailsPage data={data} key={data.id} />
       ))}
+      <Footer />
     </div>
   );
 };
