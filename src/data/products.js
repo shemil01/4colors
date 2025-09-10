@@ -4,7 +4,7 @@ export const products = [
     name: "Multi Colour 415A Cyan Toner Cartridge",
     slug: "415a-cyan-toner-cartridge",
     description:
-      "High-quality compatible cyan toner cartridge designed for sharp and vibrant color prints. Popular and trusted brand in Qatar, suitable for office and professional printing needs.",
+      "High-quality compatible cyan toner cartridge designed for sharp and vibrant color prints. Popular and trusted brand in UAE, suitable for office and professional printing needs.",
     shortDescription: "Cyan Toner Cartridge",
     sku: "MC-415A-C",
     price: "135.00",
@@ -33,7 +33,7 @@ export const products = [
     name: "Multi Colour 415A Black Toner Cartridge",
     slug: "415a-black-toner-cartridge",
     description:
-      "High-quality compatible black toner cartridge delivering sharp, clear text and professional prints. Popular and trusted brand in Qatar, designed for reliable office printing needs.",
+      "High-quality compatible black toner cartridge delivering sharp, clear text and professional prints. Popular and trusted brand in UAE, designed for reliable office printing needs.",
     shortDescription: "Black Toner Cartridge",
     sku: "MC-415A-B",
     price: "125.00",
@@ -62,7 +62,7 @@ export const products = [
     name: "Multi Colour 415A Yellow Toner Cartridge",
     slug: "415a-yellow-toner-cartridge",
     description:
-      "High-quality compatible yellow toner cartridge that produces bright and vibrant prints. Popular and trusted brand in Qatar, ideal for professional documents and graphics.",
+      "High-quality compatible yellow toner cartridge that produces bright and vibrant prints. Popular and trusted brand in UAE, ideal for professional documents and graphics.",
     shortDescription: "Yellow Toner Cartridge",
     sku: "MC-415A-Y",
     price: "135.00",
@@ -91,7 +91,7 @@ export const products = [
     name: "Multi Colour 415A Magenta Toner Cartridge",
     slug: "415a-magenta-toner-cartridge",
     description:
-      "High-quality compatible magenta toner cartridge that delivers vibrant colors and professional-quality prints. Popular and trusted brand in Qatar, suitable for office and graphic printing.",
+      "High-quality compatible magenta toner cartridge that delivers vibrant colors and professional-quality prints. Popular and trusted brand in UAE, suitable for office and graphic printing.",
     shortDescription: "Magenta Toner Cartridge",
     sku: "MC-415A-M",
     price: "135.00",
@@ -120,7 +120,7 @@ export const products = [
     name: "Multi Colour 207A Magenta Toner Cartridge",
     slug: "207a-magenta-toner-cartridge",
     description:
-      "Premium quality compatible 207A magenta toner cartridge delivering sharp, vibrant, and consistent color prints. Popular and trusted brand in Qatar, suitable for office and professional use.",
+      "Premium quality compatible 207A magenta toner cartridge delivering sharp, vibrant, and consistent color prints. Popular and trusted brand in UAE, suitable for office and professional use.",
     shortDescription: "Magenta Toner Cartridge",
     sku: "MC-207A-M",
     price: "130.00",
@@ -149,7 +149,7 @@ export const products = [
     name: "Multi Colour 207A Cyan Toner Cartridge",
     slug: "207a-cyan-toner-cartridge",
     description:
-      "Premium quality compatible 207A cyan toner cartridge designed for crisp, vibrant, and long-lasting color prints. Trusted brand in Qatar, suitable for professional and office use.",
+      "Premium quality compatible 207A cyan toner cartridge designed for crisp, vibrant, and long-lasting color prints. Trusted brand in UAE, suitable for professional and office use.",
     shortDescription: "Cyan Toner Cartridge",
     sku: "MC-207A-C",
     price: "130.00",
@@ -178,7 +178,7 @@ export const products = [
     name: "Multi Colour 207A Black Toner Cartridge",
     slug: "207a-black-toner-cartridge",
     description:
-      "High-performance compatible 207A black toner cartridge delivering sharp, clear, and professional-quality text prints. Trusted Multi Colour brand in Qatar, ideal for everyday office printing.",
+      "High-performance compatible 207A black toner cartridge delivering sharp, clear, and professional-quality text prints. Trusted Multi Colour brand in UAE, ideal for everyday office printing.",
     shortDescription: "Black Toner Cartridge",
     sku: "MC-207A-BK",
     price: "120.00",
@@ -207,7 +207,7 @@ export const products = [
     name: "Multi Colour 222A Cyan Toner Cartridge",
     slug: "222a-cyan-toner-cartridge",
     description:
-      "Premium compatible 222A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 222A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "222A Cyan Toner Cartridge",
     sku: "MC-222A-CY",
     price: "130.00",
@@ -236,7 +236,7 @@ export const products = [
     name: "Multi Colour 222A Yellow Toner Cartridge",
     slug: "222a-yellow-toner-cartridge",
     description:
-      "Premium compatible 222A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 222A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "222A Yellow Toner Cartridge",
     sku: "MC-222A-YL",
     price: "130.00",
@@ -265,7 +265,7 @@ export const products = [
     name: "Multi Colour 222A Cyan Toner Cartridge",
     slug: "222a-cyan-toner-cartridge-2",
     description:
-      "Premium compatible 222A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 222A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "222A Cyan Toner Cartridge",
     sku: "MC-222A-CY-2",
     price: "130.00",
@@ -294,7 +294,7 @@ export const products = [
     name: "Multi Colour 222AA Black Toner Cartridge",
     slug: "222aa-black-toner-cartridge",
     description:
-      "Premium compatible 222AA black toner cartridge delivering sharp, clear, and professional-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 222AA black toner cartridge delivering sharp, clear, and professional-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "222AA Black Toner Cartridge",
     sku: "MC-222AA-BK",
     price: "125.00",
@@ -323,7 +323,7 @@ export const products = [
     name: "Multi Colour 151A Toner Cartridge",
     slug: "151a-toner-cartridge",
     description:
-      "Premium compatible 151A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 151A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "151A Toner Cartridge",
     sku: "MC-151A",
     price: "110.00",
@@ -352,7 +352,7 @@ export const products = [
     name: "Multi Colour 150A Toner Cartridge",
     slug: "150a-toner-cartridge",
     description:
-      "Premium compatible 150A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 150A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "150A Toner Cartridge",
     sku: "MC-150A",
     price: "105.00",
@@ -381,7 +381,7 @@ export const products = [
     name: "Multi Colour HP 219A Drum Unit",
     slug: "hp-219a-drum-unit",
     description:
-      "Premium compatible HP 219A drum unit ensuring consistent print quality and reliability. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible HP 219A drum unit ensuring consistent print quality and reliability. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "HP 219A Drum Unit",
     sku: "MC-219A-DRUM",
     price: "180.00",
@@ -410,7 +410,7 @@ export const products = [
     name: "Multi Colour HP 217A Toner Cartridge",
     slug: "hp-217a-toner-cartridge",
     description:
-      "Premium compatible HP 217A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible HP 217A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "HP 217A Toner Cartridge",
     sku: "MC-217A",
     price: "115.00",
@@ -439,7 +439,7 @@ export const products = [
     name: "Multi Colour 259A/057 Toner Cartridge",
     slug: "259a-057-toner-cartridge",
     description:
-      "Premium compatible 259A/057 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 259A/057 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "259A/057 Toner Cartridge",
     sku: "MC-259A-057",
     price: "135.00",
@@ -468,7 +468,7 @@ export const products = [
     name: "Multi Colour TN273 Toner Cartridge",
     slug: "tn273-toner-cartridge",
     description:
-      "Premium compatible TN273 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN273 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN273 Toner Cartridge",
     sku: "MC-TN273",
     price: "125.00",
@@ -497,7 +497,7 @@ export const products = [
     name: "Multi Colour TN273 Black Toner Cartridge",
     slug: "tn273-black-toner-cartridge",
     description:
-      "Premium compatible TN273 black toner cartridge delivering sharp, clear prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN273 black toner cartridge delivering sharp, clear prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN273 Black Toner Cartridge",
     sku: "MC-TN273-BK",
     price: "125.00",
@@ -526,7 +526,7 @@ export const products = [
     name: "Multi Colour TN273 Black Toner Cartridge",
     slug: "tn273-black-toner-cartridge-2",
     description:
-      "Premium compatible TN273 black toner cartridge delivering sharp, clear prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN273 black toner cartridge delivering sharp, clear prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN273 Black Toner Cartridge",
     sku: "MC-TN273-BK-2",
     price: "125.00",
@@ -555,7 +555,7 @@ export const products = [
     name: "Multi Colour TN2305/2355BK Toner Cartridge",
     slug: "tn2305-2355bk-toner-cartridge",
     description:
-      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN2305/2355BK Toner Cartridge",
     sku: "MC-TN2305-2355BK",
     price: "140.00",
@@ -591,7 +591,7 @@ export const products = [
     name: "Multi Colour TN2305/2355BK Toner Cartridge",
     slug: "tn2305-2355bk-toner-cartridge-2",
     description:
-      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN2305/2355BK Toner Cartridge",
     sku: "MC-TN2305-2355BK-2",
     price: "140.00",
@@ -627,7 +627,7 @@ export const products = [
     name: "Multi Colour TN2305/2355BK Toner Cartridge",
     slug: "tn2305-2355bk-toner-cartridge-3",
     description:
-      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN2305/2355BK Toner Cartridge",
     sku: "MC-TN2305-2355BK-3",
     price: "140.00",
@@ -663,7 +663,7 @@ export const products = [
     name: "Multi Colour TN2305/2355BK Toner Cartridge",
     slug: "tn2305-2355bk-toner-cartridge-4",
     description:
-      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible TN2305/2355BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "TN2305/2355BK Toner Cartridge",
     sku: "MC-TN2305-2355BK-4",
     price: "140.00",
@@ -699,7 +699,7 @@ export const products = [
     name: "Multi Colour CRG071 Toner Cartridge",
     slug: "crg071-toner-cartridge",
     description:
-      "Premium compatible CRG071 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CRG071 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CRG071 Toner Cartridge",
     sku: "MC-CRG071",
     price: "150.00",
@@ -728,7 +728,7 @@ export const products = [
     name: "Multi Colour CRG071 Toner Cartridge",
     slug: "crg071-toner-cartridge-2",
     description:
-      "Premium compatible CRG071 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CRG071 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CRG071 Toner Cartridge",
     sku: "MC-CRG071-2",
     price: "150.00",
@@ -757,7 +757,7 @@ export const products = [
     name: "Multi Colour XER3030/3025BK Toner Cartridge",
     slug: "xer3030-3025bk-toner-cartridge",
     description:
-      "Premium compatible XER3030/3025BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible XER3030/3025BK toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "XER3030/3025BK Toner Cartridge",
     sku: "MC-XER3030-3025BK",
     price: "145.00",
@@ -793,7 +793,7 @@ export const products = [
     name: "Multi Colour CF216A Magenta Toner Cartridge",
     slug: "cf216a-magenta-toner-cartridge",
     description:
-      "Premium compatible CF216A magenta toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CF216A magenta toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CF216A Magenta Toner Cartridge",
     sku: "MC-CF216A-MG",
     price: "145.00",
@@ -829,7 +829,7 @@ export const products = [
     name: "Multi Colour CF216A Yellow Toner Cartridge",
     slug: "cf216a-yellow-toner-cartridge",
     description:
-      "Premium compatible CF216A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CF216A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CF216A Yellow Toner Cartridge",
     sku: "MC-CF216A-YL",
     price: "145.00",
@@ -865,7 +865,7 @@ export const products = [
     name: "Multi Colour CF216A Black Toner Cartridge",
     slug: "cf216a-black-toner-cartridge",
     description:
-      "Premium compatible CF216A black toner cartridge delivering sharp, clear, and professional-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CF216A black toner cartridge delivering sharp, clear, and professional-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CF216A Black Toner Cartridge",
     sku: "MC-CF216A-BK",
     price: "145.00",
@@ -901,7 +901,7 @@ export const products = [
     name: "Multi Colour CB543A Magenta Toner Cartridge",
     slug: "cb543a-magenta-toner-cartridge",
     description:
-      "Premium compatible CB543A magenta toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CB543A magenta toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CB543A Magenta Toner Cartridge",
     sku: "MC-CB543A-MG",
     price: "155.00",
@@ -937,7 +937,7 @@ export const products = [
     name: "Multi Colour CB542A Yellow Toner Cartridge",
     slug: "cb542a-yellow-toner-cartridge",
     description:
-      "Premium compatible CB542A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CB542A yellow toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CB542A Yellow Toner Cartridge",
     sku: "MC-CB542A-YL",
     price: "155.00",
@@ -973,7 +973,7 @@ export const products = [
     name: "Multi Colour CB540A/CE320A Toner Cartridge",
     slug: "cb540a-ce320a-toner-cartridge",
     description:
-      "Premium compatible CB540A/CE320A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CB540A/CE320A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CB540A/CE320A Toner Cartridge",
     sku: "MC-CB540A-CE320A",
     price: "160.00",
@@ -1009,7 +1009,7 @@ export const products = [
     name: "Multi Colour CB541A Cyan Toner Cartridge",
     slug: "cb541a-cyan-toner-cartridge",
     description:
-      "Premium compatible CB541A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CB541A cyan toner cartridge delivering vibrant, high-quality color prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CB541A Cyan Toner Cartridge",
     sku: "MC-CB541A-CY",
     price: "155.00",
@@ -1038,7 +1038,7 @@ export const products = [
     name: "Multi Colour CF226A Toner Cartridge",
     slug: "cf226a-toner-cartridge",
     description:
-      "Premium compatible CF226A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CF226A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CF226A Toner Cartridge",
     sku: "MC-CF226A",
     price: "150.00",
@@ -1067,7 +1067,7 @@ export const products = [
     name: "Multi Colour 89A Toner Cartridge",
     slug: "89a-toner-cartridge",
     description:
-      "Premium compatible 89A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 89A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "89A Toner Cartridge",
     sku: "MC-89A",
     price: "95.00",
@@ -1096,7 +1096,7 @@ export const products = [
     name: "Multi Colour 87A Toner Cartridge",
     slug: "87a-toner-cartridge",
     description:
-      "Premium compatible 87A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 87A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "87A Toner Cartridge",
     sku: "MC-87A",
     price: "90.00",
@@ -1125,7 +1125,7 @@ export const products = [
     name: "Multi Colour MLT101 Toner Cartridge",
     slug: "mlt101-toner-cartridge",
     description:
-      "Premium compatible MLT101 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible MLT101 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "MLT101 Toner Cartridge",
     sku: "MC-MLT101",
     price: "110.00",
@@ -1154,7 +1154,7 @@ export const products = [
     name: "Multi Colour MLT111 Toner Cartridge",
     slug: "mlt111-toner-cartridge",
     description:
-      "Premium compatible MLT111 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible MLT111 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "MLT111 Toner Cartridge",
     sku: "MC-MLT111",
     price: "115.00",
@@ -1183,7 +1183,7 @@ export const products = [
     name: "Multi Colour 107A Toner Cartridge",
     slug: "107a-toner-cartridge",
     description:
-      "Premium compatible 107A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible 107A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "107A Toner Cartridge",
     sku: "MC-107A",
     price: "100.00",
@@ -1212,7 +1212,7 @@ export const products = [
     name: "Multi Colour CE505A/280A Toner Cartridge",
     slug: "ce505a-280a-toner-cartridge",
     description:
-      "Premium compatible CE505A/280A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CE505A/280A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CE505A/280A Toner Cartridge",
     sku: "MC-CE505A-280A",
     price: "145.00",
@@ -1241,7 +1241,7 @@ export const products = [
     name: "Multi Colour CE278A Toner Cartridge",
     slug: "ce278a-toner-cartridge",
     description:
-      "Premium compatible CE278A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CE278A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CE278A Toner Cartridge",
     sku: "MC-CE278A",
     price: "135.00",
@@ -1270,7 +1270,7 @@ export const products = [
     name: "Multi Colour CE285A Toner Cartridge",
     slug: "ce285a-toner-cartridge",
     description:
-      "Premium compatible CE285A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CE285A toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CE285A Toner Cartridge",
     sku: "MC-CE285A",
     price: "140.00",
@@ -1299,7 +1299,7 @@ export const products = [
     name: "Multi Colour CF283A/CF283X CRG737 Toner Cartridge",
     slug: "cf283a-cf283x-crg737-toner-cartridge",
     description:
-      "Premium compatible CF283A/CF283X CRG737 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in Qatar, perfect for business and personal printing needs.",
+      "Premium compatible CF283A/CF283X CRG737 toner cartridge delivering high-quality prints. Multi Colour is a popular and trusted brand in UAE, perfect for business and personal printing needs.",
     shortDescription: "CF283A/CF283X CRG737 Toner Cartridge",
     sku: "MC-CF283A-CF283X-CRG737",
     price: "165.00",
