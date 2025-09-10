@@ -84,7 +84,7 @@ const HeroSection = () => {
             key={index}
             onClick={() => setCurrentHero(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentHero ? "bg-yellow-400 w-8" : "bg-white/30"
+              index === currentHero ? "bg-[#FFF200] w-8" : "bg-white/30"
             }`}
           />
         ))}
