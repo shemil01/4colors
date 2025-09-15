@@ -31,6 +31,18 @@ const OurClients = () => {
     {
       img: "/clients/Ansar-group.png",
     },
+    {
+      img: "/clients/KFC_Logo.webp",
+    },
+    {
+      img: "/clients/starcare-logo.svg",
+    },
+    {
+      img: "/clients/apollo-logo.svg",
+    },
+    {
+      img: "/clients/adlife-logo.png",
+    },
   ];
   return (
     <section className="  bg-brand-light-gray p-20 ">
