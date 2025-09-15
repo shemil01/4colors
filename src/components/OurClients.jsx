@@ -14,7 +14,7 @@ const OurClients = () => {
       img: "/clients/lulu-group.png",
     },
     {
-      img: "/clients/nesto-logo.jpg",
+      img: "/clients/nesto.png",
     },
     {
       img: "/clients/badralsama.png",
