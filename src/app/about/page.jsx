@@ -60,7 +60,7 @@ export default function About() {
       <OurValuesSection values={values} />
 
       {/* Leadership Team */}
-      <LeaderShipSection />
+      {/* <LeaderShipSection /> */}
       <Footer />
     </>
   );

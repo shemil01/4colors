@@ -134,15 +134,11 @@ export default function Contact() {
             Saudi Arabia, Kuwait, Bahrain, and Oman.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {[
               { country: "Qatar", city: "Doha", phone: "+974 3078 1234" },
-              { country: "UAE", city: "Dubai", phone: "+971 52 246 4935" },
-              {
-                country: "Saudi Arabia",
-                city: "Riyadh",
-                phone: "+966 11 XXX XXXX",
-              },
+              { country: "UAE", city: "Dubai", phone: "+971 058881533" },
+             
             ].map((location, index) => (
               <Card key={index} className="p-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]">
                 <CardContent className="p-0 text-center">
