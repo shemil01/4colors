@@ -7,7 +7,7 @@ import ProductCard from "./ui/product-card";
 
 export default function FeaturedProducts() {
   // Get featured products (first 8 products as example)
-  const featuredProducts = products.filter(p => p.isFeatured).slice(0, 8);
+  const featuredProducts = products.filter(p => p.isFeatured).slice(0, 6);
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-brand-navy/5" data-testid="featured-products">
