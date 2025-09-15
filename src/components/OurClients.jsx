@@ -43,6 +43,18 @@ const OurClients = () => {
     {
       img: "/clients/adlife-logo.png",
     },
+    {
+      img: "/clients/alseeb-logo.png",
+    },
+    {
+      img: "/clients/shapporji-logo.jpg",
+    },
+    {
+      img: "/clients/suhail.png",
+    },
+    {
+      img: "/clients/kims_health_hospital_.png",
+    },
   ];
   return (
     <section className="  bg-brand-light-gray p-20 ">
