@@ -34,8 +34,8 @@ const OurClients = () => {
   ];
   return (
     <section className="  bg-brand-light-gray p-20 ">
-      <div className="container mx-auto px-6 ">
-        <h2 className="text-center text-[19px] font-[400]  text-lg mb-10 ">
+      <div className="container mx-auto px-6 gap-7">
+        <h2 className="text-4xl font-bold text-brand-navy pb-10 text-center ">
           Our Clients
         </h2>
         <Swiper
