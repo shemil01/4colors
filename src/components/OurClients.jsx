@@ -33,7 +33,7 @@ const OurClients = () => {
     },
   ];
   return (
-    <section className="  bg-brand-light-gray p-20 font-optima">
+    <section className="  bg-brand-light-gray p-20 ">
       <div className="container mx-auto px-6 ">
         <h2 className="text-center text-[19px] font-[400] leading-[27px]  text-lg mb-10 tracking-[5px]">
           Our Clients
