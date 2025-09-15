@@ -29,14 +29,14 @@ const OurClients = () => {
       img: "/clients/ramez-hypermarket.png",
     },
     {
-      img: "/clients/Ansar-group .png",
+      img: "/clients/Ansar-group.png",
     },
   ];
   return (
-    <section className="  bg-white p-20 font-optima">
+    <section className="  bg-brand-light-gray p-20 font-optima">
       <div className="container mx-auto px-6 ">
         <h2 className="text-center text-[19px] font-[400] leading-[27px]  text-lg mb-10 tracking-[5px]">
-          Key property connections
+          Our Clients
         </h2>
         <Swiper
           modules={[Navigation, Autoplay, Pagination]}
