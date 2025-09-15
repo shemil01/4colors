@@ -47,7 +47,7 @@ const OurClients = () => {
       img: "/clients/alseeb-logo.png",
     },
     {
-      img: "/clients/shapporji-logo.jpg",
+      img: "/clients/shapporji-logo.jpeg",
     },
     {
       img: "/clients/suhail.png",
