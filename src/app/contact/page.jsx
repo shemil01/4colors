@@ -130,8 +130,8 @@ export default function Contact() {
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             With strategic partnerships and distribution networks across the
-            Gulf states, we provide seamless service from Qatar to the UAE,
-            Saudi Arabia, Kuwait, Bahrain, and Oman.
+            Gulf states, we provide seamless service from Qatar, the UAE,
+            Kuwait, and Oman.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
