@@ -33,12 +33,6 @@ export default function Contact() {
     },
   ];
 
-  const businessHours = [
-    { day: "Sunday - Thursday", hours: "8:00 AM - 6:00 PM" },
-    { day: "Friday", hours: "2:00 PM - 6:00 PM" },
-    { day: "Saturday", hours: "9:00 AM - 4:00 PM" },
-  ];
-
   return (
     <>
       <Navbar />
@@ -94,26 +88,6 @@ export default function Contact() {
                   </div>
                 ))}
               </div>
-
-              {/* Business Hours */}
-              <Card className="bg-[#0A1F44] text-white">
-                <CardHeader>
-                  <CardTitle className="flex items-center text-[#FFF200]">
-                    <Clock className="w-5 h-5 mr-2" />
-                    Business Hours
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    {businessHours.map((schedule, index) => (
-                      <div key={index} className="flex justify-between text-sm">
-                        <span>{schedule.day}</span>
-                        <span>{schedule.hours}</span>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
             </div>
 
             {/* Contact Form (Static Only) */}
