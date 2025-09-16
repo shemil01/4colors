@@ -2,8 +2,8 @@ import QuoteRequestForm from "@/components/contact/QuoteRequestForm";
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
   title: "Contact Four Colours - Get Quote for Premium Printing Solutions",
