@@ -134,20 +134,52 @@ export default function Contact() {
             Saudi Arabia, Kuwait, Bahrain, and Oman.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {[
-              { country: "Qatar", city: "Doha", phone: "+974 3078 1234" },
-              { country: "UAE", city: "Dubai", phone: "+971 058881533" },
-             
+              {
+                country: "Qatar",
+                city: "Doha",
+                phone: "+974 3078 1234",
+                // address: "Al Sadd Street, Doha, Qatar",
+              },
+              {
+                country: "UAE",
+                city: "Dubai",
+                phone: "+971 4 570 5193",
+                address:
+                  "Shop No.4, Building No. 303, Al Souq Al Kabir, Khalid Bin Walid Road, Near Al Raffa Police Station, Bur Dubai, UAE",
+              },
+              {
+                country: "Oman",
+                city: "Muscat",
+                phone: "+968 2207 9468\n+968 9740 0024\n+968 9713 6694",
+                address:
+                  "Shop No.307, 2nd Floor, Aseel Business Centre, Opp. Kim Trading, Ruwi, Muscat, Sultanate of Oman",
+              },
             ].map((location, index) => (
-              <Card key={index} className="p-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]">
+              <Card
+                key={index}
+                className="p-6 bg-gradient-to-b from-[#B92417] via-[#A0281C] to-[#8A271C]"
+              >
                 <CardContent className="p-0 text-center">
                   <h3 className="text-xl font-bold text-[#0A1F44] mb-2">
                     {location.country}
                   </h3>
                   <p className="text-[#00AEEF] mb-2">{location.city}</p>
-                  <p className="text-[#FFF200] font-semibold">
-                    {location.phone}
+                  <p className="text-[#FFF200] font-semibold whitespace-pre-line mb-2">
+                    {location.phone.split("\n").map((num, i) => (
+                      <a
+                        key={i}
+                        href={`tel:${num.replace(/\s+/g, "")}`}
+                        className="block hover:underline"
+                      >
+                        {num}
+                      </a>
+                    ))}
+                  </p>
+
+                  <p className="text-gray-200 text-sm whitespace-pre-line">
+                    {location.address}
                   </p>
                 </CardContent>
               </Card>
